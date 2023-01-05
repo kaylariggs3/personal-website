@@ -269,3 +269,14 @@ figcaption {
   left: -19px;
   top: 6px;
 }
+
+@media (max-width: 750px) {
+  .row, .contactphotos, .row1, .row2, .row3, .row4 {
+    flex-direction: column;
+    justify-content: space-evenly;
+    row-gap: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+  }
+  }
