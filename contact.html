@@ -12,7 +12,9 @@
 
 <body>
   <header>
+    <div class = "header" >
     <h1> Connect With Me! </h1>
+    </div>
     <nav> <ul>
       <li> <a href="index.html">About</a> </li>
       <li> <a href="work.html">Work</a> </li>
@@ -22,18 +24,55 @@
   </header>
   <main>
     <p> I'd love to hear from you! Feel free to reach out with any inquiries or comments and I'd be happy to chat with you! </p>
-    <div class="contactrow">
-      <!-- Source: (original work) Kayla Riggs -->
-      <picture>
-        <img src = "images/contactheadshot.JPG" alt = "Headshot"/>
-      </picture>
-    <div class="contactrightalign">
-      <h3> <em> Email: </em></h3>
-      <p> kmr242@cornell.edu </p>
-      <h3> <em> Phone: </em></h3>
-      <p> 408.859.6654</p>
-      <h3> <em> LinkedIn: </em></h3>
-      <p> www.linkedin.com/in/kaylamriggs </p>
-    </div> </div>
+
+    <p> <i> P.S. Check out some photos I've taken of my favorite places to laugh, relax, and get inspired! (see below) </i></p>
+
+    <!-- Source: W3 Schools-->
+    <div class="container">
+      <form action="mailto:kmr242@cornell.edu" method = "post" enctype="text/plain">
+
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="subject">Message</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." ></textarea>
+        <input type="submit" value="Submit">
+
+      </form>
+    </div>
+
+    <div class="contactphotos">
+    <figure>
+      <img src="images/beach.jpg" alt="Santa Cruz Beach">
+      <figcaption> Waterfront in Santa Cruz, CA</figcaption>
+    </figure>
+
+    <figure>
+      <img src="images/tower.jpg" alt="McGraw Tower">
+      <figcaption> Cornell's famed McGraw Tower </figcaption>
+    </figure>
+
+    <figure>
+      <img src="images/bridge.jpg" alt="Golden Gate Bridge">
+      <figcaption> Golden Gate Bridge in San Francisco, CA</figcaption>
+    </figure>
+    </div>
+
   </main>
+  <footer>
+    <div class="socialcontact">
+        <p> Website coded by Kayla Riggs using HTML, CSS, and JavaScript.</p>
+        <div class="footer">
+            <figure>
+                <a href="https://www.linkedin.com/in/kaylamriggs"> <img src="images/linkedin.png" alt="Linkedin Icon For Resume @clipartmax.com"> </a>
+            </figure>
+            <figure>
+                <a href="contact.html"><img src="images/contact.png" alt="Bigbig Personal Business Card Comments - Contact Business Card Icon Png @clipartmax.com" /> </a>
+            </figure>
+        </div>
+        <p> Email: kmr242@cornell.edu ● Phone: 408.859.6654 </p>
+    </div>
+  </footer>
 </body>
