@@ -1,170 +1,244 @@
 body {
-    background-color: #ebf3fd;
-    font-family: serif;
-    text-align: center;
+  background-color: #ebf3fd;
+  font-family: serif;
+  text-align: center;
 
-  }
-  .rightalign {
-    text-align: right;
-  }
+}
+.rightalign {
+  text-align: right;
+}
 
-  h1 {
-    color: rgb(20, 15, 125);
-    font-weight: bold;
-    text-decoration: underline;
-    font-size: 40pt;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-
-  }
-
-  nav {
-    background-color: white;
-    border: medium solid rgb(20, 14, 125);
-    border-radius: 20px;
-
-  }
-
-  h2 {
-    text-decoration: underline;
-    font-variant: small-caps;
-    font-size: 20pt;
-    text-align: center;
-  }
-
-  h3 {
-    text-decoration: underline;
-  }
-
-  em {
-    font-style: normal;
-    font-weight: bold;
-    text-decoration: underline;
-  }
-
-  nav ul {
-    display: flex;
-    flex-direction: row;
-    margin: 1px;
-    padding: 0px;
-    width: 100%;
-    height: 100%;
-    justify-content: space-around;
-  }
-
-
-  nav li {
-    list-style: none;
-    align-items: center;
-    padding: 10px;
+h1 {
+  color: rgb(20, 15, 125);
+  font-weight: bold;
+  font-size: 40pt;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 3px;
 
 }
 
-  nav li a {
-    padding: 10px;
-    font-size: 14pt;
-    font-weight: bold;
-    color: #312e00;
-    text-align: center;
+.header {
+  background-color:rgb(246, 240, 192);
+  padding: 10px;
+}
 
-  }
+.socialcontact{
+  background-color:rgb(246, 240, 192);
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+}
 
-  nav li a:hover {
-    color: white;
-    background-color: rgb(20, 14, 125);
-  }
+.socialcontact p {
+font-style: italic;
+font-size: 16px;
+}
 
- .row {
-    display: flex;
-    margin: 1px;
-    padding: 0px;
+footer {
+margin-top: 100px;
+}
 
- }
-  .rightalign {
-    text-align: left;
-    padding: 15px;
-    margin: 10px;
-  }
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(246, 240, 192);
+}
+nav {
+  background-color: white;
+  border: medium solid rgb(20, 14, 125);
 
-  .centertext {
-    text-align: center;
-  }
+}
 
-  .imagecenter {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin: 10px;
-    padding: 10px;
-  }
+h2 {
+  text-decoration: underline;
+  letter-spacing: 2px;
+  font-size: 20pt;
+  text-align: center;
+  color: rgb(20, 15, 125);
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-  .row1, .row2, .row3, .row4 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-bottom: 100px;
-    margin: 20px;
-    padding: 10px;
-  }
-
-  .contactrow {
-    display: flex;
-    margin: 1px;
-    padding: 10px;
-    background-color: white;
-    border: medium solid rgb(20, 14, 125);
-    border-radius: 20px;
-
- }
-  .contactrightalign {
-    text-align: left;
-    padding: 15px;
-    margin: 10px;
-  }
-
-  .worktext {
-    text-align: left;
-    background-color: white;
-    border: medium solid rgb(20, 14, 125);
-    border-radius: 20px;
-    padding: 20px;
-  }
-
-
-  dt {
+h3 {
   text-decoration: underline;
   color: rgb(20, 15, 125);
+}
+
+em {
+  font-style: normal;
   font-weight: bold;
-  font-size: 130%;
-  }
+  text-decoration: underline;
+}
 
-  .hidden {
-    display: none;
-  }
+nav ul {
+  display: flex;
+  flex-direction: row;
+  margin: 1px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  justify-content: space-around;
+}
 
-  #panel1, #panel2, #panel3, #panel4, #panel5, #panel6 {
-    border:medium solid rgb(20, 14, 125);
-    background-color: rgba(255, 255, 255, 0.401);
-    padding: 10px;
-  }
 
-  #accordion2, #accordion3, #accordion4, #accordion5, #accordion6, #accordion1, #accordion1-1, #accordion2-1, #accordion3-1, #accordion4-1, #accordion5-1, #accordion6-1 {
-    background-color: white;
-    color:rgb(20, 14, 125);
-    cursor: pointer;
-    padding: 10px;
-    width: 100%;
-    border-color:rgb(20, 14, 125);
-    font-size: 115%;
-    font-family: serif;
-    font-variant: small-caps;
-    font-weight: bold;
-  }
+nav li {
+  list-style: none;
+  align-items: center;
+  padding: 10px;
 
-  dl dd, dl dt, ul li {
-    text-align: justify;
-  }
+}
 
-  #accordion1:hover, #accordion2:hover, #accordion3:hover, #accordion4:hover, #accordion4:hover, #accordion5:hover, #accordion6:hover, #accordion1-1:hover, #accordion2-1:hover, #accordion3-1:hover, #accordion4-1:hover, #accordion5-1:hover, #accordion6-1:hover {
-    background-color:  rgba(128, 128, 128, 0.206);
-  }
+nav li a {
+  padding: 10px;
+  font-size: 14pt;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #312e00;
+  text-align: center;
+
+}
+
+nav li a:hover {
+  color: white;
+  background-color: rgb(20, 14, 125);
+}
+
+.row {
+  display: flex;
+  margin: 1px;
+  padding: 0px;
+
+}
+.rightalign {
+  text-align: left;
+  padding: 15px;
+  margin: 10px;
+}
+
+.centertext {
+  text-align: center;
+}
+
+.imagecenter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 10px;
+  padding: 10px;
+}
+
+.row1, .row2, .row3, .row4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 100px;
+  margin: 20px;
+  padding: 10px;
+}
+
+.contactrow {
+  display: flex;
+  margin: 1px;
+  padding: 10px;
+  background-color: white;
+  border: medium solid rgb(20, 14, 125);
+  border-radius: 20px;
+
+}
+.contactrightalign {
+  text-align: left;
+  padding: 15px;
+  margin: 10px;
+}
+
+.worktext {
+  text-align: left;
+  background-color: white;
+  border: medium solid rgb(20, 14, 125);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+
+dt {
+text-decoration: underline;
+color: rgb(20, 15, 125);
+font-weight: bold;
+font-size: 130%;
+}
+
+.hidden {
+  display: none;
+}
+
+#panel1, #panel2, #panel3, #panel4, #panel5, #panel6 {
+  border:medium solid rgb(20, 14, 125);
+  background-color: rgba(255, 255, 255, 0.401);
+  padding: 10px;
+}
+
+#accordion2, #accordion3, #accordion4, #accordion5, #accordion6, #accordion1, #accordion1-1, #accordion2-1, #accordion3-1, #accordion4-1, #accordion5-1, #accordion6-1 {
+  background-color: white;
+  color:rgb(20, 14, 125);
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border-color:rgb(20, 14, 125);
+  font-size: 115%;
+  font-family: serif;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+dl dd, dl dt, ul li {
+  text-align: justify;
+}
+
+#accordion1:hover, #accordion2:hover, #accordion3:hover, #accordion4:hover, #accordion4:hover, #accordion5:hover, #accordion6:hover, #accordion1-1:hover, #accordion2-1:hover, #accordion3-1:hover, #accordion4-1:hover, #accordion5-1:hover, #accordion6-1:hover {
+  background-color:  rgba(128, 128, 128, 0.206);
+}
+
+input[type=text], select, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid rgb(20, 14, 125);
+border-radius: 4px;
+box-sizing: border-box;
+margin-top: 6px;
+margin-bottom: 16px;
+resize: vertical
+}
+
+input[type=submit] {
+background-color: rgb(20, 14, 125);
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+input[type=submit]:hover {
+background-color: rgb(246, 240, 192);
+}
+
+.container {
+border: solid;
+border-radius: 5px;
+border-color: rgb(20, 14, 125);
+background-color: white;
+padding: 20px;
+}
+
+.contactphotos {
+display: flex;
+flex-direction: row;
+margin-top: 50px;
+justify-content: space-evenly;
+}
+
+figcaption {
+font-style: italic;
+color:rgb(20, 14, 125);
+}
