@@ -106,8 +106,8 @@ footer {
 
  .row {
     display: flex;
-    margin: 1px;
-    padding: 0px;
+    justify-content: space-evenly;
+    margin: 10px;
 
  }
   .rightalign {
