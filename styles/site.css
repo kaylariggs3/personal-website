@@ -49,7 +49,6 @@ footer {
   nav {
     background-color: white;
     border: medium solid rgb(20, 14, 125);
-
   }
 
   h2 {
@@ -279,4 +278,4 @@ figcaption {
     margin-right: auto;
     width: 95%;
   }
-  }
+}
